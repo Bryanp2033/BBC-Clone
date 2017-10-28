@@ -1,0 +1,266 @@
+body{
+	margin: 0 ;
+	font-family: verdana,helvetica,arial,sans-serif;
+	color: #404040;
+	font-size: 14px;
+}
+
+/* top white nav bar */
+#top_bar {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 40px;
+	color: black;
+}
+
+/* ver. alingment on white nav bar */
+.fixed_width {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* BCC logo */
+#logo_div {
+	padding-top: 10px;
+	float: left;
+	border-right: 1px solid #CCCCCC;
+	padding-right: 10px;
+}
+
+/* word alingment on white nav bar */
+#sign_in_div{
+	padding: 1px 80px 0 30px;
+	font-weight: bold;
+	float: left;
+	font-size: 0.9em;
+	border-right: 1px solid #90000;
+	padding-right: 10px;
+	padding-left: 5px;
+	border-right: 1px solid #CCCCCC;
+	width: 135px;
+	height:33px;
+}
+
+/* img left of sign in button */
+#sign_in_div img {
+	position: relative;
+	top: 8px;
+}
+
+#top_menu_div {
+	float: left;
+}
+
+/* word spacing on white nav bar ul */
+#top_menu_div ul {
+	margin: 0px;
+	padding-left: 0 ;
+}
+
+/* word arrangment for indiviual words for top white bar */
+#top_menu_div li {
+	list-style: none;
+	font-weight: bold;
+	font-size: 0.9em;
+	border-right: 1px solid #CCCCCC;
+	height:95%;
+	padding: 10px 20px 10px 20px;
+	float: left;
+}
+
+/* search bar alignment config */
+#search_div {
+	float: left;
+	padding: 5px 0 0 10px;
+}
+
+/* styling for the search bar */
+#search_div input {
+	height: 20px;
+	width: 125%;
+	border: none;
+	font-family: inherit;
+	font-size: 0.9em;
+	margin: 0;
+	padding-left: 5px;
+	background-image:url("images/magnify.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-right: -2px;
+}
+
+/* clean break for different sections of the site */
+.break {
+	clear: both;
+}
+
+/* the "NEWS" sign */
+#news_bar {
+	background-color: #BB1919;
+	width: 100%;
+	height: 80px;
+	color: white;
+}
+
+.news_fixed_width {
+	width: 100%;
+}
+
+/* letter styling for the "NEWS" sign */
+#news_bar p {
+	margin: 0;
+	padding-left: 135px;
+	padding-top: 2px;
+}
+
+/* border for red nav */
+#news_header {
+	font-size: 3em;
+}
+
+/* word styling for red nav bar */
+#topic_menu {
+	background-color: #A91717;
+	width: 100%;
+	height: 33px;
+	color: white;
+}
+
+/* red nav bar alignment */
+#topic_menu ul {
+	padding: 10px 0 0 130px;
+	margin: 0 ;	
+}
+
+/* word styling for red nav bar */
+#topic_menu li {
+	float: left;
+	list-style: none;
+	font-size: 0.9em;
+	padding:0 8px 0 10px;
+	border-right:1px solid #BB4545;
+}
+
+/* text size and color for words in content section */
+#content{
+	width: 100%;
+	color: #535353;
+	font-size: 0.8em;
+}
+
+/* "technology" word */
+.technology_sign {
+	margin-top: 20px;
+	float: left
+}
+
+/* headline text alignment */
+.headline_title {
+	font-size: 2.5em;
+	margin-top: 50px;
+}
+
+/* the blue color change for headline text */
+.headline_title:hover {
+	color: #1167A8;
+}
+
+/* font size and weight for headline story text and other news headline text */
+h3 {
+	font-size: 1.2em;
+	font-weight: normal;
+}
+
+/* font styling for other news headlines */
+.headline_links {
+	font-weight: bold;
+	font-family:  Arial,Helvetica;
+}
+
+/* blue color change and underline for other news headlines when hovering */
+.headline_links:hover {
+	text-decoration: underline;
+	color: #1167A8;
+}
+
+/* main headline news picture */
+.headline_img {
+	width: 413.328px;
+	height: 223.484px;
+	float: right;
+	margin: -215px 320px 0px;
+}
+
+/* border styling and width for the other stories headlines */
+#other_stories div {
+	border-top: 1px solid #CCCCCC;
+	width: 680px;
+}
+
+/* alignment for first other story headline */
+#other_stories p {
+	margin-left: -135px;
+	margin-top: 15px;
+}
+
+/* alignment for second other story headline */
+#other_stories h1 {
+	float:right;
+	margin-right: 210px;
+	margin-top: -123px;	
+}
+
+/* font styling for third other story headline */
+#other_stories h3 {
+	float: right;
+	margin-right: -360px;
+	margin-top: -127px;
+	color: #222;
+	font-family: sans-serif, Arial;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+/* img styling for "technology" letter for third other story headline */
+#other_stories div h3 img {
+	margin-top: 70px;
+	margin-right: 5px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+/*  blue color change and underline for third other news headlines when hovering */
+#other_stories div h3:hover {
+	color: #1167A8;
+}
+
+/* section alignment for the watch/listen section of the site */
+#watch_listen{
+	float: right;
+	width: 380px;
+	height: 500px;
+	position: relative;
+	top: -220px;
+	border-left: 1px solid #CCCCCC;
+	left: 80px;
+}
+
+/* styling and alignment for the videos of the watch/listen section */
+#watch_listen p {
+	margin-top: -220px;
+	border-left: 1px solid #CCCCCC;
+	height: 700px;
+}
+
+/* styling and alignment for watch/listen heading */
+#watch_listen h1 {
+	font-size: 2em;
+	margin-left: 15px;
+	margin-top: -705px;
+	color: #404040;
+}
+
+/* margin alignment for the videos of the watch/listen section */
+#watch_listen img {
+	margin-left: 15px;
+}
